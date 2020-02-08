@@ -4,7 +4,7 @@ package epam.task2;
  * Hello world!
  *
  */
-public class Chocolate implements Gift
+public class Chocolates implements Gift
 {
 	
     public int weight(int a[],int weight)
