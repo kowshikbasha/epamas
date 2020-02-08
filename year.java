@@ -2,7 +2,7 @@ package epam.task2;
 
 import java.util.Scanner;
 
-public class Newyear {
+public class year {
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
@@ -24,7 +24,7 @@ public class Newyear {
 		}
 		System.out.println("enter the how much amount of weight you want");
 		int we=sc.nextInt();
-		Chocolate c=new Chocolate();
+		Chocolates c=new Chocolates();
 		sweets s=new sweets();
 		int chocolatesweight=c.weight(a,we);
 		int sweetsweight=s.weight(b,we);
